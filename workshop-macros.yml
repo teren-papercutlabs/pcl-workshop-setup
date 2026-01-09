@@ -1,0 +1,12 @@
+matches:
+  - trigger: ":interview"
+    replace: "I want to do discovery mode with you. Ask me questions ONE AT A TIME to understand what I need. Don't start working until you have a clear picture - keep asking until you're confident you understand. Start with your first question."
+
+  - trigger: ":para"
+    replace: "Before you proceed, confirm your understanding: paraphrase back to me what you think I want you to do and what approach you're planning to take. I'll confirm before you start."
+
+  - trigger: ":explain"
+    replace: "Wait - before we move on, I want to understand what you just did. Walk me through your reasoning: What did you do and why? What were the key decisions you made?"
+
+  - trigger: ":diagnose"
+    replace: "Let's do a quick session review. Look through our conversation and identify: (1) Friction points - where did we have misalignment or confusion? Were there moments I seemed frustrated or unhappy? (2) Persistent rules - what should go in my CLAUDE.md as rules you should always follow? (3) Situational procedures - what should become a skill I invoke when needed? Be honest - what could you do better next time?"
