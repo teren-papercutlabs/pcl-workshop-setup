@@ -15,11 +15,17 @@ Set up my development environment for today's Claude Code workshop.
    alias yolo='claude --dangerously-skip-permissions'
    ```
 
-5. **Install the espanso macros** from `workshop-macros.yml` in the repo:
+5. **Install espanso** via Homebrew (if not already installed):
+   ```
+   brew install espanso
+   ```
+   Then start espanso if not running.
+
+6. **Install the espanso macros** from `workshop-macros.yml` in the repo:
    - Copy to `~/Library/Application Support/espanso/match/workshop-macros.yml`
    - If espanso match directory doesn't exist, create it
-   - Restart espanso if it's running (`espanso restart`)
+   - Restart espanso (`espanso restart`)
 
-6. **Open Ghostty** so I can start using it
+7. **Open Ghostty** so I can start using it
 
 After each step, confirm what you did before moving on.
