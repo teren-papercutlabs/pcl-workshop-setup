@@ -2,24 +2,22 @@
 
 Set up my development environment for today's Claude Code workshop.
 
+**Important:** Check if each tool already exists before installing. Skip installation steps for tools that are already present.
+
 ## Tasks
 
 1. **Clone the workshop repo** to `~/projects/pcl-workshop-setup`
 
-2. **Install Ghostty terminal** via Homebrew (if not already installed)
+2. **Install Ghostty terminal** — check if `ghostty` command exists first. If not, install via Homebrew.
 
 3. **Apply the Ghostty config** from the repo to `~/Library/Application Support/com.mitchellh.ghostty/config`
 
-4. **Add a shell alias** called `yolo` to my shell config (detect whether I use zsh or bash):
+4. **Add a shell alias** called `yolo` to my shell config (detect whether I use zsh or bash). Check if it already exists first.
    ```
    alias yolo='claude --dangerously-skip-permissions'
    ```
 
-5. **Install espanso** via Homebrew (if not already installed):
-   ```
-   brew install espanso
-   ```
-   Then start espanso if not running.
+5. **Install espanso** — check if `espanso` command exists first. If not, install via Homebrew and start it.
 
 6. **Install the espanso macros** from `workshop-macros.yml` in the repo:
    - Copy to `~/Library/Application Support/espanso/match/workshop-macros.yml`
