@@ -6,7 +6,7 @@ Set up my development environment for today's Claude Code workshop.
 
 ## Tasks
 
-1. **Clone the workshop repo** to `~/projects/pcl-workshop-setup`
+1. **Clone the workshop repo** from `https://github.com/teren-papercutlabs/pcl-workshop-setup` to `~/projects/pcl-workshop-setup`
 
 2. **Install Ghostty terminal** — check if `ghostty` command exists first. If not, install via Homebrew.
 
