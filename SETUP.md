@@ -26,4 +26,9 @@ Set up my development environment for today's Claude Code workshop.
 
 7. **Open Ghostty** so I can start using it
 
+8. **Install Google Sheets MCP dependencies**
+   ```
+   cd ~/projects/pcl-workshop-setup/mcp-servers/gsheet-mcp && npm install
+   ```
+
 After each step, confirm what you did before moving on.
