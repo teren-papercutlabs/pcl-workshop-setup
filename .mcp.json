@@ -1,5 +1,12 @@
 {
   "mcpServers": {
+    "spine-data": {
+      "type": "http",
+      "url": "https://spine-mcp.teren.workers.dev",
+      "headers": {
+        "Authorization": "Bearer 6b6f45b9e8948ce5e3655b4628ffaa82ac6b15347fb5214772c55c5babce3e7d"
+      }
+    },
     "gsheet": {
       "command": "node",
       "args": ["mcp-servers/gsheet-mcp/index.js"]
