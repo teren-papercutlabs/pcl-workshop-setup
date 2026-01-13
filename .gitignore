@@ -1,1 +1,3 @@
 mcp-servers/gsheet-mcp/token.json
+mcp-servers/gmail-mcp/token.json
+mcp-servers/*/node_modules/

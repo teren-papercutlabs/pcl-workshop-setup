@@ -3,6 +3,14 @@
     "gsheet": {
       "command": "node",
       "args": ["mcp-servers/gsheet-mcp/index.js"]
+    },
+    "gmail": {
+      "command": "node",
+      "args": ["mcp-servers/gmail-mcp/index.js"]
+    },
+    "granola": {
+      "command": "node",
+      "args": ["mcp-servers/granola-mcp/dist/index.js"]
     }
   }
 }
