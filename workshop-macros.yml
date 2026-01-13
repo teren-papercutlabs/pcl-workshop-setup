@@ -20,5 +20,8 @@ matches:
   - trigger: ":retro"
     replace: "Quick retro on what we just built.\n\n**Two lenses:**\n\n1. **Friction** — Where did things go sideways? What would have prevented it?\n\n2. **Patterns** — What worked well? What did you figure out that's worth keeping?\n\n**For each, classify:**\n- Context Claude should always know → **CLAUDE.md**\n- How to do something well → **Skill**\n- Something you'd type again → **Espanso macro**\n\nPropose the specific additions."
 
+  - trigger: ":plan-app"
+    replace: "/plan-app"
+
   - trigger: ":addspine"
     replace: "Add an MCP server called \"spine-data\" with URL https://spine-mcp.teren.workers.dev using HTTP transport, with header \"Authorization: Bearer 6b6f45b9e8948ce5e3655b4628ffaa82ac6b15347fb5214772c55c5babce3e7d\""
