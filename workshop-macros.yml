@@ -1,4 +1,7 @@
 matches:
+  - trigger: ":ws1"
+    replace: "I have 2-3 hours to build something useful for my team. Interview me to figure out what's worth building - something that saves time on a real workflow we do. Also surface quick wins: small automations or tasks that could be done in 20 minutes. Ask me questions ONE AT A TIME. Don't start working until you have a clear picture."
+
   - trigger: ":interview"
     replace: "I want to do discovery mode with you. Ask me questions ONE AT A TIME to understand what I need. Don't start working until you have a clear picture - keep asking until you're confident you understand. Start with your first question."
 
@@ -10,3 +13,12 @@ matches:
 
   - trigger: ":diagnose"
     replace: "Let's do a quick session review. Look through our conversation and identify: (1) Friction points - where did we have misalignment or confusion? Were there moments I seemed frustrated or unhappy? (2) Persistent rules - what should go in my CLAUDE.md as rules you should always follow? (3) Situational procedures - what should become a skill I invoke when needed? Be honest - what could you do better next time?"
+
+  - trigger: ":debug"
+    replace: "I'm stuck. Let's debug this together.\n\nWhat I wanted: [describe the goal]\nWhat happened: [describe the actual result or error]\n\nHere's the exact error or unexpected output:\n```\n[paste error or output here]\n```\n\nGive me your top 3 guesses about what went wrong, ordered from most to least likely. Then let's try the smallest fix first - what's the minimal change that might solve this?"
+
+  - trigger: ":retro"
+    replace: "Quick retro on what we just built.\n\n**Two lenses:**\n\n1. **Friction** — Where did things go sideways? What would have prevented it?\n\n2. **Patterns** — What worked well? What did you figure out that's worth keeping?\n\n**For each, classify:**\n- Context Claude should always know → **CLAUDE.md**\n- How to do something well → **Skill**\n- Something you'd type again → **Espanso macro**\n\nPropose the specific additions."
+
+  - trigger: ":addspine"
+    replace: "Add an MCP server called \"spine-data\" with URL https://spine-mcp.teren.workers.dev using HTTP transport, with header \"Authorization: Bearer 6b6f45b9e8948ce5e3655b4628ffaa82ac6b15347fb5214772c55c5babce3e7d\""
