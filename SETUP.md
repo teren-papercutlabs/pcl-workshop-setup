@@ -24,7 +24,7 @@ Set up my development environment for today's Claude Code workshop.
    - If espanso match directory doesn't exist, create it
    - Restart espanso (`espanso restart`)
 
-7. **Open Ghostty** so I can start using it
+7. **Open Ghostty in the workshop folder** — run `cd ~/projects/pcl-workshop-setup && open -a Ghostty .`
 
 8. **Install MCP dependencies** (run all three)
    ```
