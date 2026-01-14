@@ -35,10 +35,16 @@ Complete each phase before moving to the next. Read the reference file at the ST
 **Goal:** Run Foundation agent, then feature agents in parallel (same repo, file ownership prevents conflicts)
 **Done when:** All sub-agents have returned
 
-### Phase 5: VERIFY & DEPLOY
-**Read:** `reference/05-merge.md`
+### Phase 5: TESTING
+**Read:** `reference/05-testing.md`
 **When:** All sub-agents complete
-**Goal:** Verify build, run integration tests, deploy to Vercel
+**Goal:** Automated verification + user testing
+**Done when:** All checks pass, user confirms it works
+
+### Phase 6: DEPLOY
+**Read:** `reference/06-deploy.md`
+**When:** Testing complete
+**Goal:** Deploy to Vercel
 **Done when:** App running on Vercel with live URL
 
 ## Project Location

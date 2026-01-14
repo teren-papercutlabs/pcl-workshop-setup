@@ -109,6 +109,19 @@ Guide participant through each journey:
 - If something's off: note it, fix it
 - If it's a nice-to-have: note for later, don't block deploy
 
+## Step 5: UI Review Checklist
+
+Quick visual scan for polish issues. Check each:
+
+- [ ] **Padding** - Content doesn't touch screen edges (should have container with side padding)
+- [ ] **Empty states** - Empty lists show icon + message, not just blank or "No items"
+- [ ] **Loading states** - Skeleton loaders for content, spinners for buttons
+- [ ] **Colors** - At least one accent color (buttons, badges), not all grayscale
+- [ ] **Card hover** - Cards that link somewhere have hover state (shadow or border)
+- [ ] **Toasts** - Actions show feedback (saved, synced, error messages)
+
+If any fail: fix before deploy. These are quick wins that make the app feel polished.
+
 ## Done State
 
 When participant confirms it works:
